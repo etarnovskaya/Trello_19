@@ -3,12 +3,11 @@ package com.tr.manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import static jdk.nashorn.internal.objects.NativeJava.type;
+public class TeamHelper  extends  HelperBase{
 
-public class TeamHelper {
-  WebDriver wd;
+
   public TeamHelper(WebDriver wd) {
-    this.wd = wd;
+    super(wd);
   }
 
   public void selectCreateTeamFromDropDown() {
@@ -16,13 +15,13 @@ public class TeamHelper {
     click(By.cssSelector("[data-test-id='header-create-team-button']"));
   }
 
-  public void fillTeamCreationForm(String teamName, String desc) {
+  public void fillTeamCreationForm(Team team) {
     //name
    // type(By.name("displayName"), teamName);
-type(By.cssSelector("[data-test-id='header-create-team-name-input']"), teamName);
+type(By.cssSelector("[data-test-id='header-create-team-name-input']"), team.getTeamName());
 
 //desc
-  type(By.name("desc"), desc);
+  type(By.name("desc"), team.getDesc());
 
   }
 
@@ -33,16 +32,6 @@ type(By.cssSelector("[data-test-id='header-create-team-name-input']"), teamName)
   public String getTeamName() throws InterruptedException {
     Thread.sleep(10000);
     return  wd.findElement(By.cssSelector("h1.u-inline")).getText();
-  }
-
-  public void click(By locator) {
-    wd.findElement(locator).click();
-  }
-
-  public void type(By locator, String text) {
-    click(locator);
-    wd.findElement(locator).clear();
-    wd.findElement(locator).sendKeys(text);
   }
 
 }
