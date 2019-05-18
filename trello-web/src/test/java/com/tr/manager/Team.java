@@ -1,12 +1,18 @@
 package com.tr.manager;
 
 public class Team {
-  private final String teamName;
-  private final String desc;
+  private  String teamName;
+  private  String desc;
 
-  public Team(String teamName, String desc) {
+
+  public Team withTeamName(String teamName) {
     this.teamName = teamName;
+    return  this;
+  }
+
+  public Team withDesc(String desc) {
     this.desc = desc;
+    return  this;
   }
 
   public String getTeamName() {
@@ -16,4 +22,5 @@ public class Team {
   public String getDesc() {
     return desc;
   }
+
 }
