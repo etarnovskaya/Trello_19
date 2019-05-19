@@ -1,11 +1,17 @@
 package com.tr.tests;
 
+import com.tr.model.Board;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.util.List;
-
 public class CreateBoard extends TestBase {
+  @BeforeMethod
+  public void ensurePreconditions() throws InterruptedException {
+    if(!app.getBoardHelper().isOnTheHomePage()){
+      app.getHeader().clickOnHomeButtonOnHeader();
+  }
+  }
 
   @Test
   public void boardCreationTest() throws InterruptedException {
@@ -13,7 +19,7 @@ public class CreateBoard extends TestBase {
    // app.getHeader().clickOnPlusButtonOnHeader();
     app.getHeader().waitAndClickOnPlusButtonOnHeader();;
     app.getBoardHelper().selectCreateBoardFromDropDown();
-    app.getBoardHelper().fillBoardCreationForm("Test board");
+    app.getBoardHelper().fillBoardCreationForm(new Board().withBoardName("Test board"));
     app.getBoardHelper().submitBoardCreation();
 //return to home page
     app.getHeader().clickOnHomeButtonOnHeader();
@@ -32,7 +38,7 @@ public class CreateBoard extends TestBase {
 
   }
 
-  @Test
+  @Test(enabled = false)
   public void boardLisTest() throws InterruptedException {
 
 

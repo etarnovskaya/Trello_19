@@ -1,5 +1,6 @@
 package com.tr.manager;
 
+import com.tr.model.Board;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,15 +33,25 @@ public class BoardHelper extends  HelperBase {
   }
 
   public void submitBoardCreation() {
+    if (isElementPresent(By.cssSelector("[type=submit]"))){
+      click(By.cssSelector("[type=submit]"));
+    } else
     click(By.cssSelector("[data-test-id='header-create-board-submit-button']"));
   }
 
-  public void fillBoardCreationForm(String boardName) {
-    type(By.cssSelector("[data-test-id='header-create-board-title-input']"), boardName);
+  public void fillBoardCreationForm(Board board) {
+    if(isElementPresent(By.cssSelector(".create-board-tile input"))){
+      type(By.cssSelector(".create-board-tile input"), board.getBoardName());
+    } else {
+      type(By.cssSelector("[data-test-id='header-create-board-title-input']"), board.getBoardName());
+    }
   }
 
   public void selectCreateBoardFromDropDown() {
-    click(By.cssSelector("[data-test-id='header-create-board-button']"));
+if(isElementPresent(By.cssSelector(".js-new-board"))){
+  click(By.cssSelector(".js-new-board"));
+} else
+  click(By.cssSelector("[data-test-id='header-create-board-button']"));
   }
 
   public int getPersonalBoardsCount() {
@@ -65,7 +76,7 @@ public class BoardHelper extends  HelperBase {
   }
 
   public void clickCloseButton() {
-    if (wd.findElements(By.cssSelector(".js-close-board")).size() > 0) {
+    if (isElementPresent(By.cssSelector(".js-close-board"))) {
       click(By.cssSelector(".js-close-board"));
     } else click(By.cssSelector(".js-leave-board"));
   }

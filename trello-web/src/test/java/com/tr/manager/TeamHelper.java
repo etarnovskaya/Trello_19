@@ -1,5 +1,6 @@
 package com.tr.manager;
 
+import com.tr.model.Team;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

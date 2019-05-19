@@ -21,11 +21,13 @@ public class HeaderHelper  extends HelperBase{
 
       public  void clickOnHomeButtonOnHeader() throws InterruptedException {
         Thread.sleep(7000);
-        if(wd.findElements(By.cssSelector(".icon-house")).size()>0){
+        if(isElementPresent(By.cssSelector(".icon-house"))){
           click(By.cssSelector(".icon-house"));
         } else
         click(By.name("house"));
 
       }
+
+
 
 }

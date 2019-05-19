@@ -28,4 +28,12 @@ public class HelperBase {
     wd.findElement(locator).clear();
     wd.findElement(locator).sendKeys(text);
   }
+
+  public boolean isElementPresent(By locator) {
+    return wd.findElements(locator).size()>0;
+  }
+
+  public boolean isOnTheHomePage() {
+    return isElementPresent(By.cssSelector(".content-all-boards"));
+  }
 }

@@ -1,4 +1,4 @@
-package com.tr.manager;
+package com.tr.model;
 
 public class Team {
   private  String teamName;
