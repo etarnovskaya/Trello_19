@@ -13,6 +13,7 @@ public class ApplicationManager {
   TeamHelper teamHelper;
   BoardHelper boardHelper;
   HeaderHelper header;
+  UserHelper user;
   WebDriver wd;
   private String browser;
 
@@ -34,6 +35,7 @@ public class ApplicationManager {
     wd.manage().window().maximize();
 
     openSite("https://trello.com/");
+    user = new UserHelper(wd);
     login("tel.ran@hotmail.com", "Selenium3");
     boardHelper = new BoardHelper(wd);
     teamHelper = new TeamHelper(wd);
@@ -78,5 +80,9 @@ public class ApplicationManager {
 
   public HeaderHelper getHeader() {
     return header;
+  }
+
+  public UserHelper getUser() {
+    return user;
   }
 }

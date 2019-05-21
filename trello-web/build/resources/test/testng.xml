@@ -4,7 +4,7 @@
     <test name="Team" >
         <classes>
             <class name="com.tr.tests.CreateTeam" />
-            <!--<class name="com.tr.tests.CreateBoard" />-->
+           <class name="com.tr.tests.CreateBoard" />
 
 
         </classes>

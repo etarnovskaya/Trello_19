@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tr.tests.DeleteBoardTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-19T19:12:30" hostname="Lena-Toshiba" time="3.322">
-  <properties/>
-  <testcase name="firstPrivateBoardDeletionTest" classname="com.tr.tests.DeleteBoardTests" time="3.322"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
