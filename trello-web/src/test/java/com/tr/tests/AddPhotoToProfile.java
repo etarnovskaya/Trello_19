@@ -20,6 +20,7 @@ public class AddPhotoToProfile  extends  TestBase{
 
     //clickChangeProto
     app.getUser().clickChangePhoto();
+    app.getUser().attachPicture();
 
     Thread.sleep(10000);
 
