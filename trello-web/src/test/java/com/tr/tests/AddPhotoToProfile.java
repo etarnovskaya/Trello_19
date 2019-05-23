@@ -3,6 +3,8 @@ package com.tr.tests;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 public class AddPhotoToProfile  extends  TestBase{
   @BeforeMethod
   public void ensurePreconditions() throws InterruptedException {
@@ -20,7 +22,8 @@ public class AddPhotoToProfile  extends  TestBase{
 
     //clickChangeProto
     app.getUser().clickChangePhoto();
-    app.getUser().attachPicture();
+    File file = new File("src/test/resources/cat_small.png" );
+    app.getUser().attachPicture(file);
 
     Thread.sleep(10000);
 
