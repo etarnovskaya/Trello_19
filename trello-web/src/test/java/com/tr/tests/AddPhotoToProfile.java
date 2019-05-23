@@ -10,7 +10,7 @@ public class AddPhotoToProfile  extends  TestBase{
       app.getHeader().clickOnHomeButtonOnHeader();
     }
   }
-
+//hhkjhjkhjkhjkhjk
   @Test
   public void testAddPhoto() throws InterruptedException {
     //click on avatar
