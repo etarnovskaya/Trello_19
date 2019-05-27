@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tr.tests.CreateTeam" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-20T16:17:24" hostname="Lena-Toshiba" time="26.719">
+  <properties/>
+  <testcase name="teamCreationFromHeaderTest" classname="com.tr.tests.CreateTeam" time="26.719"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+]]></system-err>
+</testsuite>
