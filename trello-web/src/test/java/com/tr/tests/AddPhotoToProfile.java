@@ -13,25 +13,17 @@ public class AddPhotoToProfile  extends  TestBase{
       app.getHeader().clickOnHomeButtonOnHeader();
     }
   }
-//hhkjhjkhjkhjkhjk
+
   @Test
   public void testAddPhoto() throws InterruptedException {
-    //click on avatar
     app.getUser().clickOnAvatar();
-    //clickprofile
     app.getUser().clickProfileFromDropDown();
-
-
-    //clickChangeProto
     app.getUser().initChahgePhoto();
     File file = new File("src/test/resources/cat_small.png" );
     app.getUser().attachPicture(new UserProfile().setPhoto(file));
     //app.getUser().attachPicture(new File("src/test/resources/cat_small.png"));
 
     Thread.sleep(10000);
-
-    //uploadPicture
-
 
   }
 
