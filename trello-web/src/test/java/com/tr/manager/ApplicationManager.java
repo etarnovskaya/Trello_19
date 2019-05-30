@@ -1,12 +1,17 @@
 package com.tr.manager;
 
+import com.google.common.io.Files;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
@@ -84,5 +89,17 @@ public class ApplicationManager {
 
   public UserHelper getUser() {
     return user;
+  }
+
+  public void screenshot(){
+    File tmp=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+  File screenshot = new File("screen-"+System.currentTimeMillis()+".png");
+    try {
+      Files.copy(tmp, screenshot);
+      System.out.println(screenshot);
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+
   }
 }

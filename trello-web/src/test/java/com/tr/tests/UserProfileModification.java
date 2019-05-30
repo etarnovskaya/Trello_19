@@ -31,6 +31,7 @@ public class UserProfileModification extends  TestBase {
     app.getUser().initProfileModification();
     app.getUser().fillProfileForm(userProfile);
     app.getUser().submitModification();
+    app.screenshot();
     app.getHeader().clickOnHomeButtonOnHeader();
   }
   @Test(enabled = false)

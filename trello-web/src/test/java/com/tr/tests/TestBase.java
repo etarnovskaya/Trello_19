@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
 
 public class TestBase {
   Logger logger = LoggerFactory.getLogger(TestBase.class);
@@ -21,8 +22,8 @@ public class TestBase {
   }
 
   @BeforeMethod
-  public void logTestStart(Method m){
-    logger.info("Start test " + m.getName() );
+  public void logTestStart(Method m, Object[] parameter){
+    logger.info("Start test " + m.getName() + " with parameters " + Arrays.asList(parameter));
   }
 
   @AfterMethod
