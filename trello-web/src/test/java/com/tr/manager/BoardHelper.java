@@ -48,10 +48,10 @@ public class BoardHelper extends  HelperBase {
   }
 
   public void selectCreateBoardFromDropDown() {
-if(isElementPresent(By.cssSelector(".js-new-board"))){
+if(isElementPresent((long) 10, By.cssSelector(".js-new-board"))){
   click(By.cssSelector(".js-new-board"));
 } else
-  click(By.cssSelector("[data-test-id='header-create-board-button']"));
+waitForElementAndClick(15, By.cssSelector("[data-test-id='header-create-board-button']"));
   }
 
   public int getPersonalBoardsCount() {

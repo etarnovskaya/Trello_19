@@ -30,7 +30,7 @@ public class UserProfile {
     return initials;
   }
 
-  public UserProfile setInitials(String initials) {
+  public UserProfile withInitials(String initials) {
     this.initials = initials;
     return  this;
   }
