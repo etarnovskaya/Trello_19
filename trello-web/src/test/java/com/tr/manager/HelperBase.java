@@ -47,6 +47,11 @@ public class HelperBase {
     return wd.findElements(locator).size()>0;
   }
 
+  public boolean isElementPresent(Long timeout, By locator) {
+     WebDriverWait wait=new WebDriverWait(wd, timeout);
+    return wd.findElements(locator).size()>0;
+  }
+
   public boolean isOnTheHomePage() {
     return isElementPresent(By.cssSelector(".content-all-boards"));
   }
