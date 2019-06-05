@@ -1,8 +1,0 @@
-20:34:56.446 [main] INFO  com.tr.tests.TestBase - Start test testProfileModificationDataProvider with parameters [telran1, etarnovskaya1, IB]
-20:35:21.136 [main] INFO  com.tr.tests.TestBase - Stop test testProfileModificationDataProvider
-20:35:21.138 [main] INFO  com.tr.tests.TestBase - Start test testProfileModificationDataProvider with parameters [telran2, etarnovskaya2, II]
-20:35:45.650 [main] INFO  com.tr.tests.TestBase - Stop test testProfileModificationDataProvider
-20:35:45.652 [main] INFO  com.tr.tests.TestBase - Start test testProfileModificationDataProvider with parameters [nametelran3, etarnovskaya3, Ij]
-20:36:10.267 [main] INFO  com.tr.tests.TestBase - Stop test testProfileModificationDataProvider
-20:36:10.269 [main] INFO  com.tr.tests.TestBase - Start test testProfileModificationDataProvider with parameters [telran4, etarnovskaya4, Im]
-20:36:34.686 [main] INFO  com.tr.tests.TestBase - Stop test testProfileModificationDataProvider

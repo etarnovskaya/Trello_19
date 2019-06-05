@@ -1,0 +1,25 @@
+22:01:50.768 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [href='/login']
+22:01:50.800 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [href='/login'] found
+22:01:52.719 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+22:01:52.827 [main] INFO  com.tr.tests.TestBase - By.name: user found
+22:01:53.041 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+22:01:53.077 [main] INFO  com.tr.tests.TestBase - By.name: user found
+22:01:53.212 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+22:01:53.240 [main] INFO  com.tr.tests.TestBase - By.name: user found
+22:01:53.575 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+22:01:53.607 [main] INFO  com.tr.tests.TestBase - By.name: password found
+22:01:53.735 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+22:01:53.760 [main] INFO  com.tr.tests.TestBase - By.name: password found
+22:01:53.830 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+22:01:53.856 [main] INFO  com.tr.tests.TestBase - By.name: password found
+22:01:53.989 [main] INFO  com.tr.tests.TestBase - Start to search element By.id: login
+22:01:54.039 [main] INFO  com.tr.tests.TestBase - By.id: login found
+22:01:54.207 [main] INFO  com.tr.tests.TestBase - Start test firstPrivateBoardDeletionTest with parameters []
+22:01:54.208 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .content-all-boards
+22:02:03.832 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .content-all-boards found
+22:02:10.832 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .icon-house
+22:02:15.877 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .icon-house found
+22:02:15.877 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: house
+22:02:15.932 [main] INFO  com.tr.tests.TestBase - By.name: house found
+22:02:16.601 [main] INFO  com.tr.tests.TestBase - Start to search element By.xpath: //span[@class='icon-lg ion-member']/../../..//ul
+22:02:21.730 [main] INFO  com.tr.tests.TestBase - Stop test firstPrivateBoardDeletionTest

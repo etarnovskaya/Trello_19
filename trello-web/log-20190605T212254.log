@@ -1,0 +1,93 @@
+21:23:09.984 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [href='/login']
+21:23:10.101 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [href='/login'] found
+21:23:14.574 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+21:23:14.678 [main] INFO  com.tr.tests.TestBase - By.name: user found
+21:23:15.042 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+21:23:15.073 [main] INFO  com.tr.tests.TestBase - By.name: user found
+21:23:15.135 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+21:23:15.153 [main] INFO  com.tr.tests.TestBase - By.name: user found
+21:23:15.393 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+21:23:15.418 [main] INFO  com.tr.tests.TestBase - By.name: password found
+21:23:15.515 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+21:23:15.537 [main] INFO  com.tr.tests.TestBase - By.name: password found
+21:23:15.573 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+21:23:15.594 [main] INFO  com.tr.tests.TestBase - By.name: password found
+21:23:15.834 [main] INFO  com.tr.tests.TestBase - Start to search element By.id: login
+21:23:15.866 [main] INFO  com.tr.tests.TestBase - By.id: login found
+21:23:16.045 [main] INFO  com.tr.tests.TestBase - Start test testAddPhoto with parameters []
+21:23:16.049 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .content-all-boards
+21:23:26.455 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .content-all-boards found
+21:23:36.459 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id=header-member-menu-button]
+21:23:36.487 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id=header-member-menu-button] found
+21:23:36.487 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id=header-member-menu-button]
+21:23:36.510 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id=header-member-menu-button] found
+21:23:36.743 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id=header-member-menu-profile]
+21:23:36.871 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id=header-member-menu-profile] found
+21:23:36.871 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id=header-member-menu-profile]
+21:23:37.014 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id=header-member-menu-profile] found
+21:23:37.349 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .profile-image-initials
+21:23:42.391 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .profile-image-initials found
+21:23:42.391 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .profile-image-image
+21:23:42.409 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .profile-image-image found
+21:23:42.415 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .profile-image-change-text
+21:23:42.438 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .profile-image-change-text found
+21:23:43.041 [main] ERROR com.tr.tests.TestBase - !!!!!!! ERROR !!!!!!! 
+org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENA-TOSHIBA', ip: '192.168.204.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:218)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.perform(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.perform(EventFiringWebDriver.java:360)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at com.tr.manager.UserHelper.initChahgePhoto(UserHelper.java:64)
+	at com.tr.tests.AddPhotoToProfile.testAddPhoto(AddPhotoToProfile.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+21:23:43.880 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .js-upload-avatar
+21:23:44.034 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .js-upload-avatar found
+21:23:44.043 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .js-upload-avatar
+21:23:44.095 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .js-upload-avatar found
+21:23:54.534 [main] INFO  com.tr.tests.TestBase - Stop test testAddPhoto
+21:23:54.556 [main] INFO  com.tr.tests.TestBase - Start test testProfileModificationDataProvider with parameters [telran1, etarnovskaya1, IB]
+21:24:04.558 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id=header-member-menu-button]
+21:24:04.577 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id=header-member-menu-button] found
+21:24:04.577 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id=header-member-menu-button]
+21:24:04.605 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id=header-member-menu-button] found
+21:24:05.297 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id=header-member-menu-profile]
+21:24:05.486 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id=header-member-menu-profile] found
+21:24:05.486 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id=header-member-menu-profile]
+21:24:05.521 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id=header-member-menu-profile] found

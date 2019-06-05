@@ -1,6 +1,7 @@
 package com.tr.manager;
 
 import com.google.common.io.Files;
+import com.tr.tests.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -9,17 +10,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.events.WebDriverEventListener;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.EventListener;
 import java.util.concurrent.TimeUnit;
+
+import static com.tr.tests.TestBase.*;
 
 public class ApplicationManager {
   TeamHelper teamHelper;
   BoardHelper boardHelper;
   HeaderHelper header;
   UserHelper user;
-  WebDriver wd;
+  WebDriver  driver;
+  EventFiringWebDriver wd;
   private String browser;
 
   public ApplicationManager(String browser) {
@@ -29,12 +36,15 @@ public class ApplicationManager {
   public void start() {
     //open browser
     if(browser.equals(BrowserType.FIREFOX)){
-      wd = new FirefoxDriver();
+      wd = new EventFiringWebDriver(new FirefoxDriver());
     }else  if(browser.equals(BrowserType.CHROME)){
-      wd = new ChromeDriver();
+      wd = new EventFiringWebDriver(new ChromeDriver());
     }else if (browser.equals(BrowserType.EDGE)){
-      wd = new EdgeDriver();
+      wd = new EventFiringWebDriver(new EdgeDriver());
     }
+
+    wd.register(new MyListener());
+
 
     wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS );
     wd.manage().window().maximize();
