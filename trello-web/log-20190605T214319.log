@@ -1,0 +1,28 @@
+21:43:32.573 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [href='/login']
+21:43:32.611 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [href='/login'] found
+21:43:34.557 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+21:43:34.632 [main] INFO  com.tr.tests.TestBase - By.name: user found
+21:43:34.806 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+21:43:34.840 [main] INFO  com.tr.tests.TestBase - By.name: user found
+21:43:34.886 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+21:43:34.906 [main] INFO  com.tr.tests.TestBase - By.name: user found
+21:43:35.080 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+21:43:35.101 [main] INFO  com.tr.tests.TestBase - By.name: password found
+21:43:35.187 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+21:43:35.209 [main] INFO  com.tr.tests.TestBase - By.name: password found
+21:43:35.256 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+21:43:35.273 [main] INFO  com.tr.tests.TestBase - By.name: password found
+21:43:35.378 [main] INFO  com.tr.tests.TestBase - Start to search element By.id: login
+21:43:35.410 [main] INFO  com.tr.tests.TestBase - By.id: login found
+21:43:37.455 [main] INFO  com.tr.tests.TestBase - Start test boardCcountTest with parameters []
+21:43:37.456 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .content-all-boards
+21:43:42.975 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .content-all-boards found
+21:43:42.980 [main] INFO  com.tr.tests.TestBase - Start to search element By.xpath: //span[@class='icon-lg icon-member']/../../..//li
+21:43:43.033 [main] INFO  com.tr.tests.TestBase - By.xpath: //span[@class='icon-lg icon-member']/../../..//li found
+21:43:43.044 [main] INFO  com.tr.tests.TestBase - Stop test boardCcountTest
+21:43:43.073 [main] INFO  com.tr.tests.TestBase - Start test boardCreationTest with parameters [Board{boardName='a'}]
+21:43:43.074 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .content-all-boards
+21:43:43.098 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .content-all-boards found
+21:43:43.099 [main] INFO  com.tr.tests.TestBase - Start to search element By.xpath: //span[@class='icon-lg icon-member']/../../..//li
+21:43:43.140 [main] INFO  com.tr.tests.TestBase - By.xpath: //span[@class='icon-lg icon-member']/../../..//li found
+21:48:13.017 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .js-open-add-menu

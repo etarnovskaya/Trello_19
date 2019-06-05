@@ -1,0 +1,49 @@
+21:48:37.593 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [href='/login']
+21:48:37.641 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [href='/login'] found
+21:48:39.400 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+21:48:39.456 [main] INFO  com.tr.tests.TestBase - By.name: user found
+21:48:39.658 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+21:48:39.704 [main] INFO  com.tr.tests.TestBase - By.name: user found
+21:48:39.778 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+21:48:39.796 [main] INFO  com.tr.tests.TestBase - By.name: user found
+21:48:40.012 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+21:48:40.045 [main] INFO  com.tr.tests.TestBase - By.name: password found
+21:48:40.185 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+21:48:40.226 [main] INFO  com.tr.tests.TestBase - By.name: password found
+21:48:40.291 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+21:48:40.309 [main] INFO  com.tr.tests.TestBase - By.name: password found
+21:48:40.431 [main] INFO  com.tr.tests.TestBase - Start to search element By.id: login
+21:48:40.463 [main] INFO  com.tr.tests.TestBase - By.id: login found
+21:48:40.595 [main] INFO  com.tr.tests.TestBase - Start test boardCcountTest with parameters []
+21:48:40.596 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .content-all-boards
+21:48:48.342 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .content-all-boards found
+21:48:48.344 [main] INFO  com.tr.tests.TestBase - Start to search element By.xpath: //span[@class='icon-lg icon-member']/../../..//li
+21:48:48.383 [main] INFO  com.tr.tests.TestBase - By.xpath: //span[@class='icon-lg icon-member']/../../..//li found
+21:48:48.395 [main] INFO  com.tr.tests.TestBase - Stop test boardCcountTest
+21:48:48.404 [main] INFO  com.tr.tests.TestBase - Start test boardCreationTest with parameters [Board{boardName='a'}]
+21:48:48.405 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .content-all-boards
+21:48:48.433 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .content-all-boards found
+21:48:48.433 [main] INFO  com.tr.tests.TestBase - Start to search element By.xpath: //span[@class='icon-lg icon-member']/../../..//li
+21:48:48.467 [main] INFO  com.tr.tests.TestBase - By.xpath: //span[@class='icon-lg icon-member']/../../..//li found
+21:49:08.471 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id="header-create-menu-button"]
+21:49:08.497 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id="header-create-menu-button"] found
+21:49:08.497 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id=header-create-menu-button]
+21:49:08.518 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id=header-create-menu-button] found
+21:49:08.758 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .js-new-board
+21:49:13.801 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .js-new-board found
+21:49:13.810 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-board-button']
+21:49:13.836 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-board-button'] found
+21:49:13.837 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-board-button']
+21:49:13.849 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-board-button'] found
+21:49:14.073 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .create-board-tile input
+21:49:19.125 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .create-board-tile input found
+21:49:19.125 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-board-title-input']
+21:49:19.163 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-board-title-input'] found
+21:49:19.264 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-board-title-input']
+21:49:19.278 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-board-title-input'] found
+21:49:19.316 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-board-title-input']
+21:49:19.333 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-board-title-input'] found
+21:49:19.435 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [type=submit]
+21:49:24.487 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [type=submit] found
+21:49:24.487 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-board-submit-button']
+21:49:24.509 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-board-submit-button'] found

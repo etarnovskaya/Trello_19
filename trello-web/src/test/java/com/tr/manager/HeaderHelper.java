@@ -14,7 +14,11 @@ public class HeaderHelper  extends HelperBase{
       }
 
       public void waitAndClickOnPlusButtonOnHeader() throws InterruptedException {
-   waitForElementAndClick(15, By.cssSelector(".js-open-add-menu"));
+    Thread.sleep(10000);
+    if(isElementPresent(By.cssSelector("[data-test-id=\"header-create-menu-button\"]"))){
+      click(By.cssSelector("[data-test-id=header-create-menu-button]"));
+    } else
+click(By.cssSelector(".js-open-add-menu"));
   // waitForElementAndClick(15, By.name("add"));
   //  click(By.name("add"));
       }
