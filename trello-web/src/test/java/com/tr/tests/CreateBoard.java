@@ -36,7 +36,6 @@ public class CreateBoard extends TestBase {
   public void boardCreationTest(Board board) throws InterruptedException {
     int before = app.getBoardHelper().getPersonalBoardsCount();
     // app.getHeader().clickOnPlusButtonOnHeader();
-    Thread.sleep(10000);
     app.getHeader().waitAndClickOnPlusButtonOnHeader();
     ;
     app.getBoardHelper().selectCreateBoardFromDropDown();
@@ -54,7 +53,7 @@ public class CreateBoard extends TestBase {
 
   }
 
-  @Test
+  @Test(enabled = false)
   public void boardCcountTest() throws InterruptedException {
     int count = app.getBoardHelper().getPersonalBoardsCount();
     System.out.println(count);

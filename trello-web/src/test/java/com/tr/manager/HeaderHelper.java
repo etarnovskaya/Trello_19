@@ -8,10 +8,14 @@ public class HeaderHelper  extends HelperBase{
     super(wd);
   }
 
-  public void clickOnPlusButtonOnHeader() throws InterruptedException {
-    Thread.sleep(15000);
-    click(By.cssSelector(".header-btn.js-open-add-menu"));
-      }
+//  public void clickOnPlusButtonOnHeader() throws InterruptedException {
+//    Thread.sleep(15000);
+//
+//    if(isElementPresent(By.cssSelector("[data-test-id=\"header-create-menu-button\"]"))){
+//      click(By.cssSelector("[data-test-id=header-create-menu-button]"));
+//    } else
+//      click(By.cssSelector(".js-open-add-menu"));
+//      }
 
       public void waitAndClickOnPlusButtonOnHeader() throws InterruptedException {
     Thread.sleep(10000);

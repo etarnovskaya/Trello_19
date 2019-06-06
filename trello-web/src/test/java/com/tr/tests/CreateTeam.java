@@ -35,17 +35,17 @@ public class CreateTeam extends  TestBase {
       app.getHeader().clickOnHomeButtonOnHeader();
     }
   }
-  @Test(dataProvider = "teams")
-  public  void teamCreationFromHeaderTest(Team team) throws InterruptedException {
-    app.getHeader().clickOnPlusButtonOnHeader();
+  @Test
+  public  void teamCreationFromHeaderTest() throws InterruptedException {
+    app.getHeader().waitAndClickOnPlusButtonOnHeader();
     app.getTeamHelper().selectCreateTeamFromDropDown();
-  //  String teamName = "ggg " + System.currentTimeMillis();
-    app.getTeamHelper().fillTeamCreationForm(team);
+   String teamName = "ggg " + System.currentTimeMillis();
+    app.getTeamHelper().fillTeamCreationForm(new Team().withTeamName(teamName));
     app.getTeamHelper().submitTeamCreation();
 
-    //String teamNameActual = app.getTeamHelper().getTeamName();
+    String teamNameActual = app.getTeamHelper().getTeamName();
 
- //   Assert.assertEquals(teamNameActual, teamName);
+  Assert.assertEquals(teamNameActual, teamName);
 
 
   }

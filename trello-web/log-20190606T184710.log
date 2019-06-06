@@ -1,0 +1,19 @@
+18:47:21.385 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [href='/login']
+18:47:21.416 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [href='/login'] found
+18:47:23.526 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+18:47:23.562 [main] INFO  com.tr.tests.TestBase - By.name: user found
+18:47:23.724 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+18:47:23.756 [main] INFO  com.tr.tests.TestBase - By.name: user found
+18:47:23.789 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+18:47:23.802 [main] INFO  com.tr.tests.TestBase - By.name: user found
+18:47:23.927 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+18:47:23.952 [main] INFO  com.tr.tests.TestBase - By.name: password found
+18:47:24.026 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+18:47:24.044 [main] INFO  com.tr.tests.TestBase - By.name: password found
+18:47:24.096 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+18:47:24.114 [main] INFO  com.tr.tests.TestBase - By.name: password found
+18:47:24.213 [main] INFO  com.tr.tests.TestBase - Start to search element By.id: login
+18:47:24.266 [main] INFO  com.tr.tests.TestBase - By.id: login found
+18:47:25.370 [main] INFO  com.tr.tests.TestBase - Start test teamCreationFromHeaderTest with parameters []
+18:47:25.371 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .content-all-boards
+18:47:38.130 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .content-all-boards found

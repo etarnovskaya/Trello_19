@@ -1,0 +1,46 @@
+18:58:59.945 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [href='/login']
+18:58:59.971 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [href='/login'] found
+18:59:00.087 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+18:59:02.330 [main] INFO  com.tr.tests.TestBase - By.name: user found
+18:59:02.508 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+18:59:02.525 [main] INFO  com.tr.tests.TestBase - By.name: user found
+18:59:02.572 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+18:59:02.587 [main] INFO  com.tr.tests.TestBase - By.name: user found
+18:59:02.723 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+18:59:02.744 [main] INFO  com.tr.tests.TestBase - By.name: password found
+18:59:02.810 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+18:59:02.836 [main] INFO  com.tr.tests.TestBase - By.name: password found
+18:59:02.879 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+18:59:02.895 [main] INFO  com.tr.tests.TestBase - By.name: password found
+18:59:02.974 [main] INFO  com.tr.tests.TestBase - Start to search element By.id: login
+18:59:02.997 [main] INFO  com.tr.tests.TestBase - By.id: login found
+18:59:03.134 [main] INFO  com.tr.tests.TestBase - Start test teamCreationFromHeaderTest with parameters []
+18:59:03.135 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .content-all-boards
+18:59:16.983 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .content-all-boards found
+18:59:23.985 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .icon-house
+18:59:29.022 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .icon-house found
+18:59:29.023 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: house
+18:59:29.075 [main] INFO  com.tr.tests.TestBase - By.name: house found
+18:59:39.193 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id="header-create-menu-button"]
+18:59:39.223 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id="header-create-menu-button"] found
+18:59:39.224 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id=header-create-menu-button]
+18:59:39.241 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id=header-create-menu-button] found
+18:59:39.485 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: .js-new-org
+18:59:44.524 [main] INFO  com.tr.tests.TestBase - By.cssSelector: .js-new-org found
+18:59:44.532 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-team-button']
+18:59:44.569 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-team-button'] found
+18:59:44.571 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-team-button']
+18:59:44.603 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-team-button'] found
+18:59:44.740 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-team-name-input']
+18:59:44.777 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-team-name-input'] found
+18:59:44.778 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-team-name-input']
+18:59:44.803 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-team-name-input'] found
+18:59:44.864 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-team-name-input']
+18:59:44.880 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-team-name-input'] found
+18:59:44.911 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [data-test-id='header-create-team-name-input']
+18:59:44.925 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [data-test-id='header-create-team-name-input'] found
+18:59:45.147 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [type=submit]
+18:59:45.164 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [type=submit] found
+18:59:55.226 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: h1.u-inline
+18:59:55.290 [main] INFO  com.tr.tests.TestBase - By.cssSelector: h1.u-inline found
+18:59:55.317 [main] INFO  com.tr.tests.TestBase - Stop test teamCreationFromHeaderTest

@@ -1,0 +1,16 @@
+18:36:48.456 [main] INFO  com.tr.tests.TestBase - Start to search element By.cssSelector: [href='/login']
+18:36:48.489 [main] INFO  com.tr.tests.TestBase - By.cssSelector: [href='/login'] found
+18:36:50.556 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+18:36:50.601 [main] INFO  com.tr.tests.TestBase - By.name: user found
+18:36:50.813 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+18:36:50.837 [main] INFO  com.tr.tests.TestBase - By.name: user found
+18:36:50.881 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: user
+18:36:50.896 [main] INFO  com.tr.tests.TestBase - By.name: user found
+18:36:51.059 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+18:36:51.084 [main] INFO  com.tr.tests.TestBase - By.name: password found
+18:36:51.178 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+18:36:51.197 [main] INFO  com.tr.tests.TestBase - By.name: password found
+18:36:51.241 [main] INFO  com.tr.tests.TestBase - Start to search element By.name: password
+18:36:51.258 [main] INFO  com.tr.tests.TestBase - By.name: password found
+18:36:51.378 [main] INFO  com.tr.tests.TestBase - Start to search element By.id: login
+18:36:51.422 [main] INFO  com.tr.tests.TestBase - By.id: login found
